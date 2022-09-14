@@ -1,8 +1,8 @@
-name: resuable work flow
+name: start workflow
 
 on: 
   workflow_dispatch:
  
 jobs:
   call-work-flow-in-localRepo:
-    uses: ./
+    uses: ./.github/workflows/work-flow-1
