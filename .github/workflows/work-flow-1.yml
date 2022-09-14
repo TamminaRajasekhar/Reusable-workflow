@@ -8,7 +8,7 @@ jobs:
    sample-job1:
     runs-on: ubuntu-latest
     steps:
-       -uses: actions/checkout@v3
-       -name: write something to log
-        run: |
+       - uses: actions/checkout@v3
+       - name: write something to log
+         run: 
           echo "I am work flow one"
