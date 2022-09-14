@@ -2,13 +2,14 @@ name: Reusable workflow
 
 on:
   workflow_call:
+env:
+  NAME: raj
   
 jobs:
   
-  rul-job1:
+   sample-job1:
     runs-on: ubuntu-latest
     steps:
-       -uses: actions/checkout@v3     
+       -uses: actions/checkout@v3
        -name: write something to log
-        run: |
-           echo " I am work-flow-1"
+        run: echo "$NAME"
