@@ -7,8 +7,8 @@ jobs:
   
   rul-job1:
     runs-on: ubuntu-latest
-    steps: 
-     -uses: action/checkout@v3
-     #-name: write something to log
-     -run : |
+    steps:
+      -uses: action/checkout@v3
+      -names: write something to log
+       run : |
         echo " Iam resuable work flow one"
