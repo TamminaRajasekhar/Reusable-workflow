@@ -5,4 +5,4 @@ on:
  
 jobs:
   call-work-flow-in-localRepo:
-    uses: ./.github/workflows/work-flow-1
+    uses: ./.github/workflows/work-flow-1.yml
