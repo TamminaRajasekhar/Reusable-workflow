@@ -10,5 +10,5 @@ jobs:
     steps: 
      -uses: action/checkout@v3
      -name: write something to log
-     -run: |
-       echo " Iam resuable work flow one"
+      run : |
+        echo " Iam resuable work flow one"
