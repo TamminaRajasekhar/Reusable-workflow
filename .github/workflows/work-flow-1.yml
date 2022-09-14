@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
      -uses: action/checkout@v3
-     -name: write something to log
-      run : |
+     #-name: write something to log
+     -run : |
         echo " Iam resuable work flow one"
