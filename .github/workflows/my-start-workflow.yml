@@ -1,4 +1,4 @@
-name: start workflows
+name: start workflo
 
 on: 
   workflow_dispatch:
