@@ -4,5 +4,5 @@ on:
   workflow_dispatch:
  
 jobs:
-  call-work-flow-in-localRepo:
+  call-work-flow-in-localRepos:
     uses: ./.github/workflows/work-flow-1.yml
